@@ -1,0 +1,15 @@
+chroot /mnt
+grub-install /dev/sdx
+
+nano /etc/default/grub
+agregar:
+GRUB_DISABLE_OS_PROBER=false
+grub-mkconfig -o /boot/grub/grub.cfg
+
+TRADUCIR
+nano /etc/profile.d/lang.sh
+nano /etc/profile.d/lang.csh
+
+Agregar/modificar:
+es_ES.utf8
+

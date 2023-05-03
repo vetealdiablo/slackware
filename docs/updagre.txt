@@ -1,0 +1,12 @@
+Actualizar sistema
+
+Configurar los repositorios:
+
+nano /etc/slackpkg/mirrors
+
+Descomentar un link
+
+su
+slackpkg update
+slackpkg update gpg
+slackpkg upgrade-all

@@ -1,0 +1,20 @@
+Traducir el sistema a español:
+
+Listar todos los idiomas disponibles: locale -a
+su
+
+nano /etc/profile.d/lang.sh
+
+Sustituir export LANG=en_US:
+
+export LANG=es_ES.utf8
+
+Guardamos el documento con CTRL+O y cerramos con CTRL+X.
+
+nano /etc/profile.d/lang.csh
+
+Sustituir setenv LANG en_US:
+
+setenv LANG es_ES.utf8
+
+Guardamos el documento con CTRL+O y cerramos con CTRL+X.

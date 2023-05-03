@@ -1,0 +1,9 @@
+Iniciar el sistema directamente en modo grafico:
+
+nano /etc/inittab
+
+Cambiar id:3:initdefault: por:
+
+id:4:initdefault:
+
+Guardamos el documento con CTRL+O y cerramos con CTRL+X.

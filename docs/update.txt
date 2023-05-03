@@ -1,0 +1,9 @@
+El siguiente paso es iniciar con la actualización, el primer comando que ejecutaremos es «slackpkg update» el cual actualizara el listado de updates desde el mirror que des-comentamos en el archivo mirrors, luego ejecutamos el comando «slackpkg install-new» esto hará que se instale cualquier paquete nuevo antes de iniciar con la actualización, finalmente ejecutamos «slackpkg upgrade-all» el cual actualizara todos nuestros paquetes incluyendo los paquetes nuevos que instalamos con el comando install-new.
+
+su
+slackpkg update
+slackpkg install-new
+
+---------------------------
+
+slackpkg-updagrade
